@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hn/static/css/main.ba079924.css",
+    "main.css": "/hn/static/css/main.fadd937b.css",
     "main.js": "/hn/static/js/main.079d0024.js",
     "static/media/CV_HAMZA_NEJIB.pdf": "/hn/static/media/CV_HAMZA_NEJIB.ed2725231048af7e44f2.pdf",
     "static/media/moi.png": "/hn/static/media/moi.995a1fb7441973761901.png",
@@ -11,11 +11,11 @@
     "static/media/right-arrow.svg": "/hn/static/media/right-arrow.d19ce8f87764b5901ed2ca6f0ff22d03.svg",
     "index.html": "/hn/index.html",
     "static/media/wave.svg": "/hn/static/media/wave.0729f7ed7e722145267705a428005d41.svg",
-    "main.ba079924.css.map": "/hn/static/css/main.ba079924.css.map",
+    "main.fadd937b.css.map": "/hn/static/css/main.fadd937b.css.map",
     "main.079d0024.js.map": "/hn/static/js/main.079d0024.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba079924.css",
+    "static/css/main.fadd937b.css",
     "static/js/main.079d0024.js"
   ]
 }
