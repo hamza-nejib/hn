@@ -1,0 +1,40 @@
+.competences {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.competences>span{
+    display: inline-block;
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 0.5rem;
+}
+
+.compgroup{
+    display: flex;
+    gap: 2%;
+}
+
+.comps{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.comps>span{
+    display: inline-block;
+    margin-bottom: 3%;
+    font-size: 20px;
+}
+@media screen and (max-width: 340px) {
+    .competences>span{
+        font-size: 28px;
+    }
+    .comps>span{
+        display: inline-block;
+        font-size: 14px;
+    }
+    .compgroup{
+        display: flex;
+        gap: 1%;
+    }
+}

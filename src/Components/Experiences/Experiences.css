@@ -1,0 +1,21 @@
+.experiences {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.exper{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 36px;
+}
+
+@media screen and (max-width: 480px) {
+    .exper{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .exper{
+        font-size: 28px;
+    }
+}

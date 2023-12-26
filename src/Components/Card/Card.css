@@ -1,0 +1,51 @@
+.card{
+    width: 12rem;
+    display: flex;
+    flex-direction:column;
+    gap: 0.5rem;
+    align-items: center;
+    width: 10 rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--blue);
+    border-radius: 20px;
+}
+
+.pics{
+    width: 60px;
+}
+
+.heading{
+    font-size: 18px;
+}
+
+.detail{
+    font-size: 16px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .pics{
+        width: 50px;
+    }
+    .heading{
+        font-size: 16px;
+    }
+    .detail{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .heading{
+        font-size: 14px;
+    }
+    .detail{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,108 @@
+.footer{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.f-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+    color: white;
+}
+
+.alink{
+    color: white;
+    font-style:italic;
+    font-size: 18px;
+}
+.alink:link{
+    text-decoration: none;
+}
+.alink:visited{
+    text-decoration: none;
+}
+
+.footer>img{
+    border-radius: 15px;
+}
+.f-content>span{
+    font-size: 18px;
+}
+
+.f-icons{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 980px) {
+    .f-content>span{
+        font-size: 16px;
+    }
+    .alink{
+        font-size: 16px;
+    }
+    .f-icons{
+        margin-top: 0.3rem;
+    }
+}
+@media screen and (max-width: 880px) {
+    .f-content>span{
+        font-size: 16px;
+    }
+    .alink{
+        font-size: 16px;
+    }
+    svg{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 810px) {
+    .f-content{
+        margin-top: 4rem;
+    }
+    .f-content>span{
+        font-size: 14px;
+    }
+    .alink{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .f-content{
+        margin-top: 3rem;
+    }
+    .f-content>span{
+        font-size: 12px;
+    }
+    .f-icons{
+        margin-top: -0.5rem;
+    }
+    .alink{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .f-content{
+        margin-top: 2.5rem;
+    }
+    .f-content>span{
+        font-size: 10px;
+    }
+    .f-icons{
+        margin-top: -0.6rem;
+        gap: 0;
+    }
+    .alink{
+        font-size: 10px;
+    }
+    svg{
+        height: 60%;
+        width: 60%;
+    }
+}
