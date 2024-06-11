@@ -11,7 +11,7 @@ const Intro = () => {
         <div className="i-left">
             <div className="i-name">
                 <span>Hamza Nejib </span>
-                <span>Je suis à la recherche d'un stage pratique intégré dans ma formation Concepteur Développeur d'Application, sur les technologies Java/Spring/Angular. Le stage non rémunéré, de 12 semaines à partir de 18 Mars 2024.</span>
+                <span>Concepteur Développeur d'Application</span>
             </div>
             <Link to="/contact" className="i-button button">Recrutez moi</Link>
             
